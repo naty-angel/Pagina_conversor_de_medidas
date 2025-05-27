@@ -3,35 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Inicio</title>
+    <!-- Enlace al archivo de estilos -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- Contenedor principal de toda la página -->
 <div class="container">
+
+    <!-- Barra lateral con el logo y el menú de navegación -->
     <aside class="sidebar">
         <div class="logo-box">
+            <!-- Logo de la aplicación -->
             <img src="Logo.jpg" alt="Logo" class="logo">
         </div>
         <div class="menu-box">
             <nav class="menu">
-                <a href="index.html" class="activo">Home</a>
+                <!-- Menú de navegación lateral -->
+                <a href="index.html" class="activo">Home</a> <!-- Enlace actual -->
                 <a href="convertidor.html">Calculadora</a>
                 <a href="imc.html">IMC</a>
             </nav>
         </div>
     </aside>
 
+    <!-- Área principal donde se carga el contenido según la opción seleccionada -->
     <div class="main">
+
+        <!-- Banner superior de la página -->
         <header class="banner">
             <img src="Banner.jpg" alt="Banner">
         </header>
 
+        <!-- Sección principal con botones de navegación funcionales -->
         <section class="contenido">
             <h1>Bienvenido</h1>
             <p>Seleccione una opción:</p>
+
+            <!-- Botones que redirigen a otras páginas del sistema -->
             <button onclick="location.href='convertidor.html'">Convertidor de Unidades</button>
             <button onclick="location.href='imc.html'">Cálculo de IMC</button>
         </section>
     </div>
+
+    <!-- Pie de página con crédito de autoría -->
+    <footer class="footer">
+        <p>Desarrollado por Natalia Avello 2025</p>
+    </footer>
 </div>
+
 </body>
 </html>
