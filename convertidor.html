@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo-box">
+                <img src="Logo.jpg" alt="Logo" class="logo">
+            </div>
+            <div class="menu-box">
+                <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="convertidor.html" class="activo">Calculadora</a>
+                <a href="imc.html">IMC </a>
+                </nav>
+            </div>
+        </aside>
+        
+        <div class="main">
+            <header class="banner">
+                <img src="Banner.jpg" alt="Banner">
+            </header>
+        
+            <section class="contenido">
+    <h1>Convertidor de Unidades</h1>
+
+    <input type="number" id="valor" placeholder="Ingrese valor">
+
+    <label for="unidadEntrada">Unidad de entrada:</label>
+    <select id="unidadEntrada">
+        <option value="">Seleccione</option>
+        <option value="mm">Milímetro</option>
+        <option value="cm">Centímetro</option>
+        <option value="m">Metro</option>
+        <option value="km">Kilómetro</option>
+    </select>
+
+    <label for="unidadSalida">Unidad de salida:</label>
+    <select id="unidadSalida">
+        <option value="">Seleccione</option>
+        <option value="mm">Milímetro</option>
+        <option value="cm">Centímetro</option>
+        <option value="m">Metro</option>
+        <option value="km">Kilómetro</option>
+    </select>
+
+    <button onclick="convertir()">Calcular</button>
+    <input type="text" id="resultado" readonly>
+</section>
+        <button onclick="limpiarConvertidor()">Limpiar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="limpiarConvertidor.js"></script>
+</body>
+</html>

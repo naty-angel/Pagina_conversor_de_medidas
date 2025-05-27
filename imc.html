@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <aside class="sidebar">
+        <div class="logo-box">
+            <img src="Logo.jpg" alt="Logo" class="logo">
+        </div>
+        <div class="menu-box">
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="convertidor.html">Calculadora</a>
+                <a href="imc.html" class="activo">IMC</a>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="main">
+        <header class="banner">
+            <img src="Banner.jpg" alt="Banner">
+        </header>
+
+        <section class="contenido">
+            <h1>Calculadora IMC</h1>
+            <input type="number" id="peso" placeholder="Peso en kg">
+            <input type="number" id="altura" placeholder="Altura en metros">
+            <button onclick="calcularIMC()">Calcular IMC</button>
+            <input type="text" id="resultadoIMC" readonly>
+        </section>
+        <button onclick="limpiarIMC()">Limpiar</button>
+    </div>
+</div>
+<script src="imc.js"></script>
+<script src="limpiarIMC.js"></script>
+</body>
+</html>
