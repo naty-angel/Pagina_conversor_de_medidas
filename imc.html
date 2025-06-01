@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculadora IMC</title>
-    <!-- Enlace a los estilos -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Contenedor principal -->
 <div class="container">
-
-    <!-- Menú lateral con logo y navegación -->
     <aside class="sidebar">
         <div class="logo-box">
             <img src="Logo.jpg" alt="Logo" class="logo">
@@ -25,35 +21,21 @@
         </div>
     </aside>
 
-    <!-- Sección principal -->
     <div class="main">
-
-        <!-- Banner superior -->
         <header class="banner">
             <img src="Banner.jpg" alt="Banner">
         </header>
-
-        <!-- Contenido de la calculadora IMC -->
         <section class="contenido">
             <h1>Calculadora IMC</h1>
-
-            <!-- Entradas de peso y altura -->
             <input type="number" id="peso" placeholder="Peso en kg">
             <input type="number" id="altura" placeholder="Altura en metros">
-
-            <!-- Botón para calcular el IMC -->
             <button onclick="calcularIMC()">Calcular IMC</button>
-
-            <!-- Resultado del IMC (solo lectura) -->
             <input type="text" id="resultadoIMC" readonly>
-
-            <!-- Botón para limpiar los campos -->
             <button onclick="limpiarIMC()">Limpiar</button>
         </section>
     </div>
 </div>
 
-<!-- Scripts que hacen funcionar los botones -->
 <script src="imc.js"></script>
 <script src="limpiarIMC.js"></script>
 
