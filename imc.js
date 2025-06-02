@@ -31,7 +31,7 @@ function calcularIMC() {
     }else if (imc < 24.9){
         clasificacion = "Normal";
     } else if (imc < 29.9){
-        clasificacion = "SObrepeso";
+        clasificacion = "Sobrepeso";
     }else {
         clasificacion= "obesidad";
     }

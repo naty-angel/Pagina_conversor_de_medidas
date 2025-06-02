@@ -1,4 +1,4 @@
-/* Estilos Generales*/
+
 body {
     margin: 0;
     font-family: Calibri, sans-serif;
@@ -9,14 +9,14 @@ body {
     color: #111;
 }
 
-/* Contenedor Principal */
+
 .container {
     display: flex;
     height: 100vh;
 }
 
 
-/* Barra Lateral (Logo + Menú) */
+
 .sidebar {
     width: 180px;
     background-color: #fff3e0;
@@ -27,7 +27,7 @@ body {
 }
 
 
-/* Logo con separación */
+
 .logo-box {
     width: 100%;
     height: 99px; 
@@ -44,7 +44,7 @@ body {
 }
 
 
-/* Menú */
+
 .menu-box {
     width: 100%;
 }
@@ -78,14 +78,14 @@ body {
 }
 
 
-/* Área Principal (Banner + Contenido) */
+
 .main {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
 
-/* Banner con línea divisoria */
+
 .banner {
     height: 140px; 
     border-bottom: 1px solid black;
@@ -102,7 +102,7 @@ body {
     object-fit: cover; 
 }
 
-/* Contenido central */
+
 .contenido {
     flex: 1;
     display: flex;
@@ -142,13 +142,13 @@ button {
     padding: 16px;
     font-size: 18px;
 }
-/* Placeholder dentro de inputs */
+
 input::placeholder {
     font-size: 18px;
     color: #555;
 }
 
-/* Etiquetas */
+
 label {
     font-size: 18px;
     display: block;
@@ -156,7 +156,7 @@ label {
     color: #333;
 }
 
-/* Resultado */
+
 .resultado,
 output,
 #resultadoIMC {
@@ -166,20 +166,20 @@ output,
     color: #000;
 }
 
-/* Botones */
+
 button {
     background-color: #ff9800;
     color: white;
     font-weight: bold;
     cursor: pointer;
 }
-/* Entradas, Selects y Botones */
+
 button:hover {
     background-color: #f57c00;
     transform: scale(1.05);
 }
 
-/* Home */
+
 .contenido-home {
     flex: 1;
     display: flex;
@@ -195,7 +195,7 @@ button:hover {
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); 
 }
 
-/* Pie de Página*/
+
   
  .footer {
   text-align: center;
